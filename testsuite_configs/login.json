@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "testsuite_name": "login",
+        "tags": [
+            "login"
+        ],
+        "city_name": "台中市",
+        "city_id": "1668399"
+    },
+    "testcases": [
+        {
+            "name": "test_git_user_info",
+            "tags": [
+                "user"
+            ],
+            "severity": "critical",
+            "story": "",
+            "feature": "",
+            "testrail_suite_id": 0,
+            "testrail_case_id": 0
+        }
+    ]
+}

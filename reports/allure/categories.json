@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Ignored tests", 
+      "matchedStatuses": ["skipped"] 
+    },
+    {
+      "name": "Mongo problems",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*mongo.*" 
+    },
+    {
+      "name": "EDP Error",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*EDP Server Error.*" 
+    },
+    {
+      "name": "USDP Error",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*USDP Server Error.*" 
+    },
+    {
+      "name": "504 Getway timeout",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*504 Gateway Time-out.*" 
+    },
+    {
+      "name": "500 Server Error",
+      "matchedStatuses": ["broken", "failed"],
+      "messageRegex": ".*500 Server Error.*" 
+    }
+]

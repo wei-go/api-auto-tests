@@ -1,0 +1,8 @@
+allure-pytest
+pytest==7.2.2
+requests
+arrow
+polling
+pygsheets
+gspread
+retry
